@@ -1,0 +1,143 @@
+.dashBoard_head,
+.dashBoard_filter,
+.dashBoard_body {
+  padding: 15px 30px;
+}
+@media screen and (max-width: 600px) {
+  .dashBoard_head,
+  .dashBoard_filter,
+  .dashBoard_body {
+    padding: 15px 20px;
+  }
+}
+/********* header and Filter *********/
+.dashBoard_head {
+  background-color: #6236ff;
+  color: #fff;
+}
+
+.dashBoard_filter {
+  background-color: #e6e6e6;
+}
+
+.dashBoard_filter select {
+  padding: 12px 10px;
+  width: 220px;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/********* dashboard body *********/
+.dashBoard_infoBox {
+  margin-bottom: 25px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  display: flex;
+  max-width: 600px;
+}
+@media screen and (max-width: 600px) {
+  .dashBoard_infoBox {
+    flex-direction: column;
+  }
+}
+.worldInfoBox,
+.growthInfoBox {
+  padding: 20px;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.worldInfoBox {
+  width: 200px;
+}
+@media screen and (max-width: 600px) {
+  .worldInfoBox {
+    width: 100%;
+  }
+}
+.worldInfoBox-title {
+  margin-top: 6px;
+}
+
+.growthInfoBox {
+  flex: 1;
+  border-left: 1px solid #e6e6e6;
+}
+@media screen and (max-width: 600px) {
+  .growthInfoBox {
+    border-left: none;
+    border-top: 1px solid #e6e6e6;
+  }
+}
+.chartWrapperBody {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.numCount {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.chartWrapper {
+  position: relative;
+  padding: 0 30px;
+}
+.vCharText {
+  transform: rotate(-90deg) translateY(-50%);
+  left: -60px;
+  top: 45%;
+  position: absolute;
+}
+.hCharText {
+  text-align: center;
+  max-width: 900px;
+}
+.colorHelp {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-top: 24px;
+}
+@media screen and (max-width: 600px) {
+  .colorHelp {
+    margin-left: 10px;
+  }
+}
+.colorHelp-status {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.colorHelp-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  margin-right: 12px;
+}
+.colorHelp-dot.burundi {
+  background-color: #9172ff;
+}
+.colorHelp-dot.comoros {
+  background-color: #f9cb4c;
+}
+.colorHelp-dot.djibouti {
+  background-color: #8fd175;
+}
+.colorHelp-dot.Eritrea {
+  background-color: #8f3275;
+}
+.colorHelp-dot.Kenya {
+  background-color: #d18844;
+}
+.colorHelp-dot.BuruMadagascarndi {
+  background-color: #4cb2ff;
+}
+.colorHelp-subTitle {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+@media screen and (max-width: 600px) {
+  .colorHelp-subTitle {
+    margin-left: 10px;
+  }
+}
